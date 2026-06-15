@@ -1,0 +1,11 @@
+#for loop
+
+fruits=["Apple","orange"] 
+
+for fruit in fruits:
+   print(fruit)
+
+
+
+
+                                                                                                                                                          
