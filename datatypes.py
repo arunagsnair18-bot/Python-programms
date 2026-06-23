@@ -210,7 +210,7 @@ print(id(final_amount))"""
 student={"name":"John" , "age": 18 , "is_enrolled": True}
 print(type(student))
 print (student["name"])
-
 print (student["age"])
+
 
 

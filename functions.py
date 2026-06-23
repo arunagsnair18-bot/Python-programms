@@ -37,4 +37,11 @@ addition(2,4)"""
 
 
 
+#The docstring is stored as documentation for the function and is not printed automatically when the function runs. 
+#You must access it with greet.__doc__ or help(greet).
+def greet(name):
+    """Return a greeting message."""
+    return f"Hello, {name}!"
 
+print(greet("Alice"))
+print(greet.__doc__)
